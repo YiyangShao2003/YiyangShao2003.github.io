@@ -15,6 +15,7 @@ My interest lies in **Control** and **Robot Learning**. I am currently focused o
 
 Research Experience
 ======
+
 Humanoid Whole Body Control Through Text Command
 ------
 Developed a whole body controller for humanoid robot through text command, based on teacher-student framework. Teacher policies are trained through RL to track the reference motions, and then distilled into a text conditioned student policy.  
