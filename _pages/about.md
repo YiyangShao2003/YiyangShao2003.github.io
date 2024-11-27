@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 I am a fourth-year undergraduate student in [University of Science and Technology of China](https://en.ustc.edu.cn/).  I am currently visiting [UC Berkeley, Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html), under the supervision of Prof. [Koushil Screenath](https://hybrid-robotics.berkeley.edu/koushil/). Before that, I was supervised by Prof. [Shiwu Zhang](https://scholar.google.com.hk/citations?user=d6tBg_UAAAAJ&hl=en-EN) at USTC. 
+I am looking for a PhD position this application season!
 
 Research Interests
 ======
