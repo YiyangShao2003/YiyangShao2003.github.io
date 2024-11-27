@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yiyang Shao's Academic Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yiyang Shao"
 description              : &description "personal description"

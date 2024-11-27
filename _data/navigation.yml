@@ -26,8 +26,8 @@ main:
   # - title: "Guide"
   #   url: /markdown/
 
-  - title: "Research"
-    url: /Research/
+  # - title: "Research"
+  #   url: /Research/
         
   - title: "CV"
-    url: /cv/
+    url: /files/ENG_CV.pdf
