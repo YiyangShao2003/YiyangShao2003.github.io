@@ -18,15 +18,15 @@ Research Experience
 Humanoid Whole Body Control Through Text Command
 ------
 Developed a whole body controller for humanoid robot through text command, based on teacher-student framework. Teacher policies are trained through RL to track the reference motions, and then distilled into a text conditioned student policy.  
-<iframe width="612" height="360" src="https://drive.google.com/file/d/15uLEWGOo-ETW9vFsupNedHy17-n59ryG/view?usp=drive_link" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="612" height="360" src="https://github.com/YiyangShao2003/YiyangShao2003.github.io/blob/master/videos/text2action.mp4" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Learning for Safe Multiple Heterogeneous Quadcopter Control via Generalizable Barrier Certificate
 ------
 Developed a method for training heterogeneous safe controller for quadcopters and generalizable barrier function simultaneously.
-<iframe width="612" height="360" src="https://drive.google.com/file/d/1Sba0NqlJmza_tDBjeR9l9rMjNKEoLI5H/view?usp=drive_link" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="612" height="360" src="https://github.com/YiyangShao2003/YiyangShao2003.github.io/blob/master/videos/multi_quadcopters.mp4" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Geometry Variation Model Predictive Control For Bipedal Robot
 ------
 Convex MPC based on geometry representation of system dynamics. Free of singularity and energy preserving.  
-<iframe width="612" height="360" src="https://drive.google.com/file/d/1jFZhjxslsXkZB1EHGqOv4WLjrwuWTKUU/view?usp=drive_link" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="612" height="360" src="https://github.com/YiyangShao2003/YiyangShao2003.github.io/blob/master/videos/gvmpc.mp4" title="Geometry Variation MPC" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 State Estimation and Control of a Wheeled-Bipedal Robot
 ------
 Proposed a novel slip detection and state estimation strategy, significantly improving the robot's robustness. Enable high-performance control with LQR based on whole-body dynamics. More details can be founed [HERE](https://kevin-shao-ustc.github.io/Bipedal.pdf)
