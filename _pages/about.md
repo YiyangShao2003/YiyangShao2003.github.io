@@ -49,7 +49,7 @@ State Estimation and Control of a Wheeled-Bipedal Robot
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DIakTY5WKMU" title="Wheeled-Bipedal Robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 SLAM and Navigation of an Omnidirectional Robot
-------  
+------ 
 - Develop a navigation system for a mobile robot to navigate through uneven terrain.
 - Enhance localization frequency and accuracy by integrating lidar, IMU, and encoder data using a Kalman filter.
 - Analyze terrain traversability through point cloud segmentation.
