@@ -12,7 +12,7 @@ I am looking for a PhD position this application season!
 
 Research Interests
 ======
-My interest lies in **Control** and **Robot Learning**. I am currently focused on ridging high-level intelligence with low-level controller in physical world. 
+My interest lies in **Control** and **Robot Learning**. I am currently focused on bridging high-level intelligence with low-level controller in physical world. 
 
 Research Experience
 ======
