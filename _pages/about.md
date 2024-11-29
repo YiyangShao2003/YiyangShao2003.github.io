@@ -12,7 +12,7 @@ I am looking for a PhD position this application season!
 
 Research Interests
 ======
-My interest lies in **Control** and **Robot Learning**. I am currently focused on **Whole Body Control for Humanoids** and **Safe Interaction of Multi Agent Systems**. 
+My interest lies in **Control** and **Robot Learning**. I am currently focused on ridging high-level intelligence with low-level controller in physical world. 
 
 Research Experience
 ======
