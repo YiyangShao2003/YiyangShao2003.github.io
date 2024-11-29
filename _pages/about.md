@@ -45,13 +45,13 @@ State Estimation and Control of a Wheeled-Bipedal Robot
 - Developed a robust state estimation and high-performance control algorithm for a wheeled-bipedal robot.
 - Detect slipping based on the velocity difference of wheels' contact points with the ground in the inertial frame to adjust covariance in state estimation Kalman filter.
 - Designed LQR controller based on whole-body dynamics.
-- More details can be founed [HERE](https://yiyangshao2003.github.io/files/Bipedal.pdf)
+- More details can be found [HERE](https://yiyangshao2003.github.io/files/Bipedal.pdf)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DIakTY5WKMU" title="Wheeled-Bipedal Robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-SLAM and Navigation of a Omnidirectional Robot
+SLAM and Navigation of an Omnidirectional Robot
 ------  
 - Develop a navigation system for a mobile robot to navigate through uneven terrain.
 - Enhance localization frequency and accuracy by integrating lidar, IMU, and encoder data using a Kalman filter.
 - Analyze terrain traversability through point cloud segmentation.
-- More details can be founed [HERE](https://kevin-shao-ustc.github.io/Sentry.pdf)
+- More details can be found [HERE](https://kevin-shao-ustc.github.io/Sentry.pdf)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DtH-J36skYA" title="Slam and Navigation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
