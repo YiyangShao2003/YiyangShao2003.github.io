@@ -23,7 +23,7 @@ Humanoid Whole Body Control Via Text Command
 - Teacher policies are trained using reinforcement learning to track captioned reference motion from HumanML3D.
 - A text-conditioned student policy is then distilled from the teacher policies using behavior cloning and finetuned through reinforcement learning to transit between motions.
 - The result policy demonstrates capability to perform sequential motions based on text commands.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aMt2kglz3cg" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZeHBi9yREDE" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Learning for Safe Multiple Heterogeneous Quadcopter Control via Generalizable Barrier Certificate
 ------
