@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year undergraduate student in [University of Science and Technology of China](https://en.ustc.edu.cn/).  I am currently visiting [UC Berkeley, Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html), under the supervision of Prof. [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Before that, I was supervised by Prof. [Shiwu Zhang](https://scholar.google.com.hk/citations?user=d6tBg_UAAAAJ&hl=en-EN) at USTC. 
-I am looking for a PhD position this application season!
+I am a fourth-year undergraduate student at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC). Starting Fall 2025, I will be joining the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) at UC Berkeley as a Ph.D. student under the supervision of [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/).
 
 Research Interests
 ======
@@ -17,13 +16,10 @@ My interest lies in **Control** and **Robot Learning**. I am currently focused o
 Research Experience
 ======
 
-Humanoid Whole Body Control Via Text Command
+Language-directed Humanoid Whole Body Control via End-to-end Learning
 ------
-- Developed a whole body controller for a humanoid robot through text command, based on the teacher-student framework.
-- Teacher policies are trained using reinforcement learning to track captioned reference motion from HumanML3D.
-- A text-conditioned student policy is then distilled from the teacher policies using behavior cloning and finetuned through reinforcement learning to transit between motions.
-- The result policy demonstrates capability to perform sequential motions based on text commands.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZeHBi9yREDE" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- An end-to-end method enabling humanoid robots to interpret and execute diverse whole-body motions directly from natural language commands.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9AN0GulqWwc" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Learning for Safe Multiple Heterogeneous Quadcopter Control via Generalizable Barrier Certificate
 ------
