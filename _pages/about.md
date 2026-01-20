@@ -21,15 +21,13 @@ Publications
   padding: 1.5rem;
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
   border: 1px solid #efefef;
-  transition: all 0.25s ease;
 }
 
 .pub-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  border-color: #52adc8;
 }
+
 
 .pub-media {
   flex: 0 0 320px;
@@ -97,8 +95,8 @@ Publications
   color: #52adc8;
   border: 1px solid #52adc8;
   border-radius: 20px;
-  transition: all 0.2s;
 }
+
 
 .pub-links a:hover {
   background: #52adc8;
