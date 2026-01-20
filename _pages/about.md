@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, where I am a member of the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). My research focuses on **Robotics**, **Reinforcement Learning (RL)** and **Generative Models**. Prior to Berkeley, I received my B.S. in Modern Mechanics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC).
+I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, where I am a member of the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). My research focuses on **Robotics**, **Reinforcement Learning (RL)** and **Generative Models**. Prior to Berkeley, I received my B.S. in Modern Mechanics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC). 
 
 Publications
 ======
