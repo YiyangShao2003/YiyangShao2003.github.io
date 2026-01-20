@@ -12,6 +12,112 @@ I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, wh
 Publications
 ======
 
+<style>
+.pub-item {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  border: 1px solid #efefef;
+  transition: all 0.25s ease;
+}
+
+.pub-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.pub-media {
+  flex: 0 0 320px;
+  max-width: 100%;
+}
+
+.pub-media iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  display: block;
+}
+
+.pub-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pub-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+.pub-title a {
+  text-decoration: none;
+  color: #222;
+}
+
+.pub-title a:hover {
+  color: #52adc8;
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.6rem;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.pub-links a {
+  display: inline-block;
+  padding: 4px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #52adc8;
+  border: 1px solid #52adc8;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.pub-links a:hover {
+  background: #52adc8;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  .pub-item {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .pub-media {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+</style>
+
 <div class="pub-item">
   <div class="pub-media">
     <iframe src="https://www.youtube.com/embed/9AN0GulqWwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,6 +140,7 @@ Publications
     </div>
   </div>
 </div>
+
 
 Prior Projects
 ======
