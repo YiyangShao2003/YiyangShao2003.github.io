@@ -12,10 +12,28 @@ I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, wh
 Publications
 ======
 
-[**LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning**](https://arxiv.org/abs/2504.21738)  
-**Yiyang Shao***, Xiaoyu Huang*, Bike Zhang, Qiayuan Liao, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath  
-*Robotics: Science and Systems (RSS), 2025* [[Paper]](https://www.roboticsproceedings.org/rss21/p065.pdf) [[arXiv]](https://arxiv.org/abs/2504.21738) [[Video]](https://www.youtube.com/watch?v=9AN0GulqWwc) [[Project Page]](https://hybrid-robotics.berkeley.edu/langwbc/)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9AN0GulqWwc" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="pub-item">
+  <div class="pub-media">
+    <iframe src="https://www.youtube.com/embed/9AN0GulqWwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">
+      <a href="https://hybrid-robotics.berkeley.edu/langwbc/">LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning</a>
+    </div>
+    <div class="pub-authors">
+      <strong>Yiyang Shao*</strong>, Xiaoyu Huang*, Bike Zhang, Qiayuan Liao, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath
+    </div>
+    <div class="pub-venue">
+      Robotics: Science and Systems (RSS), 2025
+    </div>
+    <div class="pub-links">
+      <a href="https://www.roboticsproceedings.org/rss21/p065.pdf">Paper</a>
+      <a href="https://arxiv.org/abs/2504.21738">arXiv</a>
+      <a href="https://www.youtube.com/watch?v=9AN0GulqWwc">Video</a>
+      <a href="https://hybrid-robotics.berkeley.edu/langwbc/">Project Page</a>
+    </div>
+  </div>
+</div>
 
 Prior Projects
 ======
