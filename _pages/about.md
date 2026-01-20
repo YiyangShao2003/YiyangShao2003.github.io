@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, where I am a member of the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). My research focuses on **Robotics**, **Reinforcement Learning (RL)** and **Generative Models**. Prior to Berkeley, I received my B.S. in Modern Mechanics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC). 
+I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, where I am a member of the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). My research focuses on **Robotics**, **Reinforcement Learning (RL)** and **Generative Models**. Prior to Berkeley, I received my B.S. in Modern Mechanics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC).
 
 Publications
 ======
@@ -21,13 +21,15 @@ Publications
   padding: 1.5rem;
   background: #ffffff;
   border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
   border: 1px solid #efefef;
+  transition: all 0.25s ease;
 }
 
 .pub-item:hover {
-  border-color: #52adc8;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
-
 
 .pub-media {
   flex: 0 0 320px;
@@ -95,8 +97,8 @@ Publications
   color: #52adc8;
   border: 1px solid #52adc8;
   border-radius: 20px;
+  transition: all 0.2s;
 }
-
 
 .pub-links a:hover {
   background: #52adc8;
