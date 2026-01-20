@@ -9,13 +9,16 @@ redirect_from:
 
 I am a first-year Ph.D. student in **Mechanical Engineering** at UC Berkeley, where I am a member of the [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/index.html) advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). My research focuses on **Robotics**, **Reinforcement Learning (RL)** and **Generative Models**. Prior to Berkeley, I received my B.S. in Modern Mechanics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC).
 
-Research Experience
+Publications
 ======
 
-Language-directed Humanoid Whole Body Control via End-to-end Learning
-------
-- An end-to-end method enabling humanoid robots to interpret and execute diverse whole-body motions directly from natural language commands.
+[**LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning**](https://arxiv.org/abs/2504.21738)  
+**Yiyang Shao***, Xiaoyu Huang*, Bike Zhang, Qiayuan Liao, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath  
+*Robotics: Science and Systems (RSS), 2025* [[Paper]](https://www.roboticsproceedings.org/rss21/p065.pdf) [[arXiv]](https://arxiv.org/abs/2504.21738) [[Video]](https://www.youtube.com/watch?v=9AN0GulqWwc) [[Project Page]](https://hybrid-robotics.berkeley.edu/langwbc/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9AN0GulqWwc" title="Humanoid Whole Body Control Via Text Command" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Prior Projects
+======
 
 Learning for Safe Multiple Heterogeneous Quadcopter Control via Generalizable Barrier Certificate
 ------
