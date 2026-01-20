@@ -21,7 +21,7 @@ repository               : "YiyangShao2003/YiyangShao2003.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar_2025.jpg"
+  avatar           : "avatar_2025.jpeg"
   name             : "Yiyang Shao"
   pronouns         : # example: "she/her"  
   bio              : "Control & Robot Learning"
