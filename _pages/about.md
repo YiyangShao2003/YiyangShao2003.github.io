@@ -142,7 +142,7 @@ Publications
       <a href="https://hybrid-robotics.berkeley.edu/langwbc/">LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning</a>
     </div>
     <div class="pub-authors">
-      <strong>Yiyang Shao*</strong>, Xiaoyu Huang*, Bike Zhang, Qiayuan Liao, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath
+      <strong>Yiyang Shao</strong>, Xiaoyu Huang, Bike Zhang, Qiayuan Liao, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath
     </div>
     <div class="pub-venue">
       Robotics: Science and Systems (RSS), 2025
