@@ -1,0 +1,174 @@
+/* Layout: a two-column index. A narrow left gutter holds labels (photo, section names, years, robot platforms);
+   the right column holds content. IBM Plex Sans for reading, IBM Plex Mono for metadata. */
+:root {
+  --bg: #fbfcfc;
+  --fg: #14181b;
+  --muted: #5e6a71;
+  --line: #e2e8ea;
+  --accent: #15768d;
+  --accent-strong: #0d5668;
+  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --gutter: 132px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1416;
+    --fg: #e2e8eb;
+    --muted: #8e9ba2;
+    --line: #222c30;
+    --accent: #5fc4dc;
+    --accent-strong: #93daeb;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: 15.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img, video { max-width: 100%; }
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-block: 64px 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-strong); text-decoration: underline; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+.row {
+  display: grid;
+  grid-template-columns: var(--gutter) 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.row > * { min-width: 0; }
+.label {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  padding-top: 3px;
+}
+.label.caps { text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* Intro */
+.photo {
+  width: var(--gutter);
+  height: var(--gutter);
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin: 0;
+}
+.intro h1 { margin-bottom: 14px; }
+.intro p { margin: 0 0 12px; max-width: 62ch; }
+.links {
+  font-family: var(--mono);
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  margin-top: 16px;
+}
+
+/* Sections */
+.section { margin-top: 64px; }
+.section-head { margin-bottom: 20px; }
+.section-head h2 { margin: 0; font-weight: 400; }
+.entries { display: grid; gap: 28px; }
+.entry-body {
+  display: grid;
+  grid-template-columns: 176px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.entry-body > div { min-width: 0; }
+.thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--line);
+}
+.thumb img,
+.thumb video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.thumb img { transition: transform .3s ease; }
+.thumb:hover img { transform: scale(1.03); }
+.title {
+  display: block;
+  font-weight: 500;
+  color: var(--fg);
+  line-height: 1.4;
+  text-wrap: balance;
+}
+a.title:hover { color: var(--accent); }
+.authors { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+.authors b { color: var(--fg); font-weight: 500; }
+.desc { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+.venue-line {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  align-items: baseline;
+}
+.venue { color: var(--fg); font-weight: 500; }
+.meta { color: var(--muted); }
+
+.foot {
+  margin-top: 72px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.foot .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.back { font-family: var(--mono); font-size: 13px; }
+.lede { color: var(--muted); margin: 8px 0 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .thumb img { transition: none; }
+}
+
+@media (max-width: 640px) {
+  .wrap { padding-block: 40px 56px; }
+  .row { grid-template-columns: 1fr; gap: 10px; }
+  .photo { width: 96px; height: 96px; }
+  .label:empty { display: none; }
+  .entry-body { grid-template-columns: 1fr; gap: 10px; }
+  .section { margin-top: 48px; }
+}
