@@ -131,6 +131,7 @@ h1 {
 a.title:hover { color: var(--accent); }
 .authors { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
 .authors b { color: var(--fg); font-weight: 500; }
+.author-note { color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
 .desc { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
 .venue-line {
   font-family: var(--mono);
